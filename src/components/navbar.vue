@@ -1,15 +1,24 @@
 <template>
-<nav class=" bg-green-500 text-white p-4 flex justify-between">
-    <div class="flex items-center gap-3">
-        <img src="/sos-logo.jpg" class="w-10 h-10 rounded-full"/>
-        <h1 class="font-bold" >SOS Tech School</h1>
-
+  <nav class="bg-green-500 text-white px-10 py-4">
+    <div class="flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <img src="/logo 1.jpg" class="h-15 w-15 rounded-full object-cover"/>
+        <span class="text-xl font-bold">tembera igihugu cyacu🏕</span>
+      </div>
+      <ul class="flex gap-6">
+        <li>
+          <router-link to="/" class="text-white">Home</router-link>
+        </li>
+        <li>
+          <router-link to="/about" class="text-white">About</router-link>
+        </li>
+        <li>
+          <router-link to="/images" class="text-white">Images</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" class="text-white">Contact</router-link>
+        </li>
+      </ul>
     </div>
-    <div class="space-x-4">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-
-    </div>
-</nav>
+  </nav>
 </template>

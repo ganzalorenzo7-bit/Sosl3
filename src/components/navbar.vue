@@ -14,8 +14,15 @@
     <li class="relative group">
       <a href="#" class="hover:text-yellow-300 ">Gallery<span>🔽</span></a>
     <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute bg-white text-green-900 rounded shadow w-48 top-full left-0 z-50">
-    <li> <a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">Photos</a></li>
-    <li> <a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">Videos</a></li>
+    <li> <a href="/photos" class="block px-4 py-2 hover:bg-green-200 text-green-900">Photos</a></li>
+    <li> <a href="/videos" class="block px-4 py-2 hover:bg-green-200 text-green-900">Videos</a></li>
+    </ul>
+  </li>
+    <li class="relative group">
+      <a href="#" class="hover:text-yellow-300 ">Language<span>🔽</span></a>
+    <ul class="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute bg-white text-green-900 rounded shadow w-48 top-full left-0 z-50">
+    <li> <a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">English</a></li>
+    <li> <a href="#" class="block px-4 py-2 hover:bg-green-200 text-green-900">French</a></li>
     </ul>
   </li>
 

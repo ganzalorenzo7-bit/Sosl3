@@ -22,15 +22,15 @@
           </div>
           <div class="grid grid-cols-2 gap-4 w-full max-w-4xl">
             <img
-              src="/src/assets/photo 10.jpg"
+              src="/src/assets/images/gallery/photos/ubumwe.png"
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img
-              src="/src/assets/photo 10.jpg"
+              src="/src/assets/images/gallery/photos/umusambi 2.jpeg"
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img
-              src="/src/assets/photo 10.jpg"
+              src="/src/assets/images/gallery/photos/skyscraping.jpg"
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img

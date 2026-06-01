@@ -52,7 +52,7 @@
 
 <!-- place for copyright -->
  <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300">
-<p class="text-center"> &copy; 2026 Visit Rwanda. All rights Served.</p>  
+<p class="text-center"> made by GANZA Lorenzo Anyiega.</p>  
  </div>
 
 </footer>

@@ -23,7 +23,7 @@
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img
-              src="/src/assets/images/gallery/photos/rhino.jpg"
+              src="/src/assets/images/gallery/photos/Rhino.jpg"
               class="w-full h-60 object-cover cursor-pointer"
             />
             <img

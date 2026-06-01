@@ -17,7 +17,7 @@
             <p class="text-xl">
               Kigali is the capital city of Rwanda. It is known for being very
               clean, safe, and built on beautiful green hills. There are many
-              nice places to see and visit around the city.
+              nice places to see and visit around the city.There are also marsh lands as you are heading to kabuga at a place called UMUSAMBI VILLAGE which accomodates different species of birds and other animals including crasted cranes and kingfisher birds.
             </p>
           </div>
           <div class="grid grid-cols-2 gap-4 w-full max-w-4xl">

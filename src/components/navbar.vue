@@ -38,6 +38,7 @@
     </ul>
     </li>
     <li><RouterLink to="/contact" class="hover:text-yellow-300">Contact</RouterLink></li>
+    <li><RouterLink to="/login" class="bg-yellow-400 text-green-900 px-4 py-1 rounded text-semibold hover:bg-yellow-300">login</RouterLink></li>
 
   </ul>
 </nav>

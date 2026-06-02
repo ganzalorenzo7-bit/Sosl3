@@ -10,6 +10,9 @@ import Northern from '../views/Northern.vue';
 import city from '../views/city.vue';
 import photos from '../views/gallery/photos.vue';
 import videos from '../views/gallery/videos.vue';
+import login from '../views/login.vue';
+import register from '../views/register.vue';
+
 
 const routes = [
   {
@@ -73,6 +76,16 @@ const routes = [
   path:"/videos",
   name:"videos",
   component:videos,
+},
+{
+  path:"/login",
+  name:"login",
+  component:login,
+},
+{
+  path:"/register",
+  name:"register",
+  component:register,
 },
 
 

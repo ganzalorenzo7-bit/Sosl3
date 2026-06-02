@@ -63,7 +63,7 @@ onMounted(() => {
           class="relative group overflow-hidden rounded-2xl shadow-lg bg-white/10"
         >
           <img
-            src="/images/location.jpeg"
+            src="/src/assets/location.jpeg"
             class="h-72 w-full object-cover transition duration-500 group-hover:blur-sm group-hover:scale-105"
           />
           <div
@@ -87,10 +87,10 @@ onMounted(() => {
         >
           <div
             class="absolute inset-0 bg-cover bg-center blur-sm scale-110"
-            style="background-image: url('/images/photo 9.jpeg');"
+            style="background-image: url('/public/photo 9.jpeg');"
           ></div>
           <img
-            src="/images/photo 9.jpeg"
+            src="/public/photo 9.jpeg"
             class="relative h-72 w-full object-cover transition duration-500 group-hover:blur-sm group-hover:scale-105"
           />
           <div

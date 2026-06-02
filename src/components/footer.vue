@@ -41,7 +41,7 @@
                     </ul>
 </div>
 <div>
-<h3 class="text-yellow-300 font-bold text-lg mb-3">Contact</h3>
+<h3 class="text-yellow-300 font-bold text-lg mb-3">Contacts</h3>
 <ul class="space-y-2 text-green-300 text-sm">
     <li>ahantunyaburanga@gmail.com</li>
     <li>+0788569596</li>

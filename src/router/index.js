@@ -10,9 +10,9 @@ import Northern from '../views/Northern.vue';
 import City from '../views/city.vue';
 import Photos from '../views/gallery/photos.vue';
 import Videos from '../views/gallery/videos.vue';
-import Login from '../views/login.vue';
-import Register from '../views/register.vue';
-
+import Login from '../views/Login.vue';
+import Register from '../views/Register.vue';
+import Dashboard from '../views/Dashboard/Dashboard.vue';
 const routes = [
   { path: "/", name: "Home", component: Home },
   { path: "/about", name: "About", component: About },
@@ -27,6 +27,7 @@ const routes = [
   { path: "/videos", name: "Videos", component: Videos },
   { path: "/login", name: "Login", component: Login },
   { path: "/register", name: "Register", component: Register },
+  { path: "/dashboard", name: "Dashboard", component: Dashboard },
 ]
 
 const router = createRouter({

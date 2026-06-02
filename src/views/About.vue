@@ -11,7 +11,7 @@
   </section>
   <section
     class="relative py-24 px-6 md:px-24 bg-cover bg-center"
-    style="background-image: url('/images/flower.JPG');"
+    style="background-image: url('src/assets/images/gallery/photos/flower.JPG');"
   >
     <div class="absolute inset-0 bg-black/40"></div>
     <div

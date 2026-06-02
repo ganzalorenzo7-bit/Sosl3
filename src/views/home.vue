@@ -1,22 +1,8 @@
-<script setup>
-import { ref, onMounted } from "vue";
-const galleryImages = [
-  "/public/photo 8.jpg",
-  "/public/photo 7.png",
-  "/public/photo 9.jpeg",
-];
-const currentImage = ref(0);
-onMounted(() => {
-  setInterval(() => {
-    currentImage.value =
-      (currentImage.value + 1) % galleryImages.length;
-  }, 5000);
-});
-</script>
+
 <template>
   <section
     class="min-h-screen bg-cover bg-center p-6"
-    style="background-image: url('/public/photo 7.png');"
+    style="background-image: url('/photo7.png');"
   >
     <div
       class="min-h-screen rounded-3xl backdrop-blur-sm bg-black/50 p-10"
@@ -63,7 +49,7 @@ onMounted(() => {
           class="relative group overflow-hidden rounded-2xl shadow-lg bg-white/10"
         >
           <img
-            src="/src/assets/location.jpeg"
+            src="/location.jpeg"
             class="h-72 w-full object-cover transition duration-500 group-hover:blur-sm group-hover:scale-105"
           />
           <div
@@ -87,10 +73,10 @@ onMounted(() => {
         >
           <div
             class="absolute inset-0 bg-cover bg-center blur-sm scale-110"
-            style="background-image: url('/public/photo 9.jpeg');"
+            style="background-image: url('/photo9.jpeg');"
           ></div>
           <img
-            src="/public/photo 9.jpeg"
+            src="/photo9.jpeg"
             class="relative h-72 w-full object-cover transition duration-500 group-hover:blur-sm group-hover:scale-105"
           />
           <div
@@ -127,3 +113,18 @@ onMounted(() => {
   transform: translateX(-100%);
 }
 </style>
+<script setup>
+import { ref, onMounted } from "vue";
+const galleryImages = [
+  "/photo8.jpg",
+  "/photo7.png",
+  "/photo9.jpeg",
+];
+const currentImage = ref(0);
+onMounted(() => {
+  setInterval(() => {
+    currentImage.value =
+      (currentImage.value + 1) % galleryImages.length;
+  }, 5000);
+});
+</script>

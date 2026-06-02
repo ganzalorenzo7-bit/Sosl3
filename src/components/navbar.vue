@@ -1,6 +1,9 @@
 <template>
-<nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow"> 
-  <img src="/images/LOGO 1.JPEG" />  <span class="text-xl font-bold">tembera igihugu cyacu🏕</span>
+
+
+<nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow-l"> 
+  <img src="../src/assets/images/gallery/photos/LOGO 1.JPEG" /> 
+   <span class="text-xl font-bold">tembera igihugu cyacu🏕</span>
   <span class="flex gap-8 text-sm font-medium"></span>
       
   

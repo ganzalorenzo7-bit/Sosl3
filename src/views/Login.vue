@@ -1,10 +1,25 @@
-<script setup></script>
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+
+
+const router=useRouter()
+const email=ref('')
+const password=ref('')
+
+// this function will handle login
+function handleLogin(){
+    router.push('/dashboard')
+}
+</script>
+
+
 <template>
     <div class="flex items-center justify-center bg-green-100 min-h-screen">
 <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
 <h2 class="text-2xl font-bold text-green-800 mb-6 text-center">Login</h2>
 
-<form class="flex flex-col gap-4">
+<form @submit.prevent="handleLogin" class="flex flex-col gap-4">
 <input v-model="email" type="email" placeholder="Please enter user email" required
 class="border border-gray-300 rounded px-4 py-2 focus:outline-one focus:border-green-green-600"/>
 

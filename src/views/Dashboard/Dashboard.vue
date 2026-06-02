@@ -1,3 +1,13 @@
+<script setup>
+import {ref} from 'vue'
+import { useRouter} from 'vue-router';
+const router=useRouter()
+const activeMenu=ref('overview')
+function logout(){
+    router.push('/login')
+}
+</script>
+
 <template>
 <div class="flex h-screen bg-gray-100">
 <!-- asidebar which will be used for calling the items content-->
@@ -24,6 +34,7 @@
 <!-- Main content -->
  
 <main class="flex-1 overflow-y-auto p-8">
+<!-- this will contain overview -->
 
 </main>
 

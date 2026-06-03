@@ -1,7 +1,7 @@
 <template>
   <section
     class="relative h-[500px] bg-cover bg-center flex items-center justify-center"
-    style="background-image: url('/src/assets/images/gallery/photos/photo 10.jpg');"
+    style="background-image: url('/src/assets/images/gallery/photos/photo10.jpg');"
   >
     <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/50 to-black/90"></div>
     <div class="relative z-10 text-center px-6">

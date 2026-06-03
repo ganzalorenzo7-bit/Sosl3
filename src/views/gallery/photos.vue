@@ -56,7 +56,7 @@
           </div>
           <div class="bg-gray-800 border border-gray-700/50 overflow-hidden shadow-xl rounded-sm">
             <img 
-              src="/src/assets/images/gallery/photos/western 2.jpg" 
+              src="/src/assets/images/gallery/photos/western2.jpg" 
               class="w-full h-64 object-cover"
             />
             <div class="p-3">

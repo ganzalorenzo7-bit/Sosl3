@@ -24,7 +24,7 @@
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img
-              src="/src/assets/images/gallery/photos/western 2.jpg"
+              src="/src/assets/images/gallery/photos/western2.jpg"
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img

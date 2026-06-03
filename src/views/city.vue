@@ -28,7 +28,7 @@
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
           <img
-            src="/src/assets/images/gallery/photos/umusambi 2.jpeg"
+            src="/src/assets/images/gallery/photos/umusambi2.jpeg"
             alt="Umusambi Village"
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
@@ -38,7 +38,7 @@
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
           <img
-            src="/src/assets/images/gallery/photos/photo 10.jpg"
+            src="/src/assets/images/gallery/photos/photo10.jpg"
             alt="Kigali City"
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />

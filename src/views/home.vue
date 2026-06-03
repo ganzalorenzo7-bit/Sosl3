@@ -2,7 +2,7 @@
 <template>
   <section
     class="min-h-screen bg-cover bg-center p-6"
-    style="background-image: url('/photo7.png');"
+    style="background-image: url('./photo7.png');"
   >
     <div
       class="min-h-screen rounded-3xl backdrop-blur-sm bg-black/50 p-10"

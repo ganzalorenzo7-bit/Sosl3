@@ -3,7 +3,7 @@
     <section class="relative w-full min-h-screen overflow-hidden">
       <div
         class="absolute inset-0 bg-cover bg-center"
-        style="background-image: url('/convention.png');"
+        style="background-image: url('/src/assets/images/gallery/photos/convention.png');"
       ></div>
       <div class="absolute inset-0 bg-black/40"></div>
       <div class="relative z-10 min-h-screen flex flex-col items-center justify-center px-6">

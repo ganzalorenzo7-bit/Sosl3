@@ -2,7 +2,7 @@
 
 
 <nav class="bg-green-800 text-white px-8 py-4 flex items-center justify-between shadow-l"> 
-  <img src="../assets/images/gallery/photos/LOGO-1.JPEG h-24 w-24" /> 
+  <img src="../assets/images/gallery/photos/LOGO-1.JPEG" class="h-24 w-24" /> 
    <span class="text-xl font-bold">tembera igihugu cyacu🏕</span>
   <span class="flex gap-8 text-sm font-medium"></span>
       

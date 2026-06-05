@@ -1,8 +1,23 @@
 
+<script setup>
+import { ref, onMounted } from "vue";
+const galleryImages = [
+  "/photo 8.jpg",
+  "/photo7.png",
+  "/photo9.jpeg",
+];
+const currentImage = ref(0);
+onMounted(() => {
+  setInterval(() => {
+    currentImage.value =
+      (currentImage.value + 1) % galleryImages.length;
+  }, 6000);
+});
+</script>
 <template>
   <section
     class="min-h-screen bg-cover bg-center p-6"
-    style="background-image: url('./photo7.png');"
+    style="background-image: url('/photo7.png');"
   >
     <div
       class="min-h-screen rounded-3xl backdrop-blur-sm bg-black/50 p-10"
@@ -113,18 +128,3 @@
   transform: translateX(-100%);
 }
 </style>
-<script setup>
-import { ref, onMounted } from "vue";
-const galleryImages = [
-  "/photo8.jpg",
-  "/photo7.png",
-  "/photo9.jpeg",
-];
-const currentImage = ref(0);
-onMounted(() => {
-  setInterval(() => {
-    currentImage.value =
-      (currentImage.value + 1) % galleryImages.length;
-  }, 5000);
-});
-</script>

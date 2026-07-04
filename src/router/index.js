@@ -24,7 +24,7 @@ const routes = [
   { path: "/Western", name: "Western", component: Western },
   { path: "/city", name: "City", component: City },
   { path: "/photos", name: "Photos", component: Photos },
-  { path: "/videos", name: "Videos", component: Videos },
+  { path: "/videos", name: "Videos", component: Videos, alias: "/gallery/videos" },
   { path: "/login", name: "Login", component: Login },
   { path: "/register", name: "Register", component: Register },
   { path: "/dashboard", name: "Dashboard", component: Dashboard },

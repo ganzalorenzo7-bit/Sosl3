@@ -5,10 +5,10 @@
         style="background-image: url('/src/assets/images/gallery/photos/HERO BACKGROUND.jpg');"
       >
         <div
-          class="absolute inset-0   bg-gradient-to-b  from-black/80    via-black/50   to-black/90"
+          class="absolute    "
         ></div>
         <div
-          class="absolute inset-0 bg-cover bg-center blur-sm scale-110"
+          class="absolute bg-center blur-sm scale-110"
           style="background-image: url('/src/assets/images/gallery/photos/HERO BACKGROUND.jpg');"
         ></div>
         <div class="relative z-10 text-center px-6">

@@ -3,7 +3,7 @@
       <section class="relative w-full min-h-screen overflow-hidden">
         <div
           class="absolute inset-0 bg  bg-cover bg-sm-blur bg-center "
-          style="background-image: url('/src/assets/images/gallery/photos/birunga.png');"
+          style="background-image: url('/birunga.png');"
         ></div>
         <div class="relative z-10 min-h-screen flex flex-col  px-6">
           <div class="text-center text-white max-w-3xl mb-12">
@@ -31,7 +31,7 @@
               class="w-full h-48 object-cover cursor-pointer"
             />
             <img
-              src="/src/assets/images/gallery/photos/bestrw.jpg"
+              src="/bestrw.jpg"
               class="w-full h-48 object-cover cursor-pointer"
             />
           </div>

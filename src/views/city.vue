@@ -23,7 +23,7 @@
         </div>
         <div class="grid grid-cols-2 gap-4 w-full max-w-4xl">
           <img
-            src="/src/assets/images/gallery/photos/ubumwe.png"
+            src="/src/assets/images/gallery/photos/umujyi.png"
             alt="Ubumwe"
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
@@ -38,7 +38,7 @@
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
           <img
-            src="/src/assets/images/gallery/photos/photo10.jpg"
+            src="/src/assets/images/gallery/photos/photo 99.jpg"
             alt="Kigali City"
             class="w-full h-48 object-cover cursor-pointer rounded-lg hover:scale-105 transition"
           />
